@@ -1,4 +1,6 @@
 [{
+	"Grupo": "Android",
+	"Context": "Java",
 	"Abrreviation": "dbopen",
 	"Description": "Abre o banco de dados, colocar o código de acesso a Base  após a chamada do método open",
 	"bloco":"
@@ -6,4 +8,19 @@
 				db.open();
 				db.close();
 		"
+},
+{
+	"Grupo": "Android",
+	"Context": "Java",
+	"Abrreviation": "exx",
+	"Description": "Tratamento de execessões personalizado.",
+	"bloco": "
+			try {
+				
+			}catch(Exception e){
+    			Log.e(TAG,\"========================================\");
+    			Log.e(TAG, String.valueOf(e.getMessage()) );
+    			Log.e(TAG,  \"=========================================\");
+			}
+	"
 }]
