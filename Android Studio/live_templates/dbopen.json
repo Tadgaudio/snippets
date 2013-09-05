@@ -1,0 +1,9 @@
+[{
+	"Abrreviation": "dbopen",
+	"Description": "Abre o banco de dados, colocar o código de acesso a Base  após a chamada do método open",
+	"bloco":"
+				DBAdapter db = new DBAdapter(context);
+				db.open();
+				db.close();
+		"
+}]
