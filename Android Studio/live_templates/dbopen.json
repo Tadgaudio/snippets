@@ -23,4 +23,15 @@
     			Log.e(TAG,  \"=========================================\");
 			}
 	"
+},{
+
+	"Grupo": "Android",
+	"Context": "Java",
+	"Abrreviation": "mylog",
+	"Description": "Meu estilo de logar algo, com muito == na linha para achar rápido o errro no log.",
+	"bloco": "
+		Log.e(TAG,\"=========================================\");
+        Log.e(TAG, String.valueOf(e.getMessage()) );
+        Log.e(TAG,  \"=========================================\");}
+	"
 }]
