@@ -1,0 +1,16 @@
+Android Code Utils -
+====================
+
+Aqui reservo diversas rotinas de códigos que podem ser usadas no dia à dia
+
+
+
+Começamos com o parser de uma cor em hexadecimal ou RGB.
+
+Color.parseColor("#000000");
+Color.rgb(200,0,0);
+Color.argb(0,200,0,0);
+EX:
+holder.text.setTextColor(Color.rgb(200,0,0));
+holder.text.setTextColor(Color.argb(0,200,0,0));
+	

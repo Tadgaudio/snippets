@@ -34,4 +34,19 @@
         Log.e(TAG, String.valueOf(e.getMessage()) );
         Log.e(TAG,  \"=========================================\");}
 	"
-}]
+},{
+
+	"Grupo": "Android",
+	"Context": "Java",
+	"Abrreviation": "#",
+	"Description": "Quando encontra um sustenido ele converte para Color.Parser(\"#\")",
+	"bloco": " Color.parseColor(\"#$END$\"); "
+},{
+
+	"Grupo": "Android",
+	"Context": "Java",
+	"Abrreviation": "rgb",
+	"Description": "Converte para Color.argb()",
+	"bloco": " Color.argb(0,200,0,0); "
+}
+]
