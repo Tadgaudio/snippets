@@ -13,4 +13,19 @@ Color.argb(0,200,0,0);
 EX:
 holder.text.setTextColor(Color.rgb(200,0,0));
 holder.text.setTextColor(Color.argb(0,200,0,0));
+
+
+Dica de como pegar uma view de um Adapter.
+
+ View v = (View) spinnerCidade.getSelectedView();
+ int municipioId = v.getId();
+ prop.set_MunicipioId(municipioId);
+
+
+ Esconder o teclado virtual 
+
+ InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+ imm.hideSoftInputFromWindow(myEditText.getWindowToken(), 0);
+
+
 	
